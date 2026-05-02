@@ -118,3 +118,199 @@ body {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+/* Task 4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 408px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: transparent;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+  background-color: transparent;
+}
+
+.login-form input:hover,
+.login-form input:focus {
+  border-color: #000000;
+}
+
+.login-form button {
+  width: 86px;
+  height: 40px;
+  margin-top: 8px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background-color: #4e75ff;
+  cursor: pointer;
+}
+
+.login-form button:hover,
+.login-form button:focus {
+  background-color: #6c8cff;
+}
+
+/* Task 5 */
+
+.widget {
+  text-align: center;
+}
+
+.widget p {
+  margin: 0 0 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.widget .color {
+  color: #2e2f42;
+}
+
+.change-color {
+  min-width: 148px;
+  height: 40px;
+  padding: 8px 16px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background-color: #4e75ff;
+  cursor: pointer;
+}
+
+.change-color:hover,
+.change-color:focus {
+  background-color: #6c8cff;
+}
+
+/* Task 6 */
+
+#controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  width: 486px;
+  padding: 32px;
+  margin-bottom: 16px;
+
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}
+
+#controls input {
+  width: 150px;
+  height: 40px;
+  padding: 8px 16px;
+
+  border: 1px solid #808080;
+  border-radius: 8px;
+  outline: transparent;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  color: #2e2f42;
+  background-color: transparent;
+}
+
+#controls input:hover,
+#controls input:focus {
+  border-color: #000000;
+}
+
+#controls button {
+  min-width: 120px;
+  height: 40px;
+  padding: 8px 16px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#controls button[data-create] {
+  background-color: #4e75ff;
+}
+
+#controls button[data-create]:hover,
+#controls button[data-create]:focus {
+  background-color: #6c8cff;
+}
+
+#controls button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#controls button[data-destroy]:hover,
+#controls button[data-destroy]:focus {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+
+  max-width: 486px;
+  padding: 32px;
+
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}

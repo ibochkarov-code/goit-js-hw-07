@@ -81,3 +81,40 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/* Task 3 */
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: transparent;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+  background-color: transparent;
+}
+
+#name-input:hover,
+#name-input:focus {
+  border-color: #000000;
+}
+
+#name-input::placeholder {
+  color: #2e2f42;
+}
+
+#name-input + h1 {
+  margin: 16px 0 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}

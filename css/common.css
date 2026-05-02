@@ -12,3 +12,48 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+
+/* Task 1 */
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 392px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  padding: 16px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
+
+.item h2 {
+  margin: 0 0 16px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item ul li {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
